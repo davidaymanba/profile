@@ -8,8 +8,8 @@ export function Contact({ profile }: { profile: ProfileData }) {
     { label: "Email", href: `mailto:${profile.email}`, value: profile.email },
     { label: "Phone", href: profile.phoneHref, value: profile.phone },
     { label: "WhatsApp", href: profile.whatsapp, value: "Message on WhatsApp" },
-    { label: "LinkedIn", href: profile.linkedin, value: "linkedin.com/in/mohamed-ali-amen" },
-    { label: "GitHub", href: profile.github, value: "github.com/MohamedAliAmean" },
+    { label: "LinkedIn", href: profile.linkedin, value: profile.linkedin.replace("https://", "") },
+    { label: "GitHub", href: profile.github, value: profile.github.replace("https://", "") },
     ...(profile.cvUrl
       ? [{ label: "CV", href: "/api/cv", value: "Download resume (PDF)" }]
       : []),

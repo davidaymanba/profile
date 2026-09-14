@@ -27,7 +27,7 @@ export function CvUpload({
     setError("");
     setSavedMsg("");
     const supabase = createClient();
-    const path = `cv/mohamed-diab-cv.pdf`;
+    const path = `cv/david-ayman-cv.pdf`;
 
     const { error: uploadError } = await supabase.storage
       .from("portfolio")

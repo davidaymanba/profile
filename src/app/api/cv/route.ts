@@ -22,7 +22,7 @@ export async function GET() {
       headers: {
         "Content-Type": contentType,
         "Content-Disposition":
-          'attachment; filename="Mohamed_Diab_Full_Stack_Developer.pdf"',
+          'attachment; filename="David_Ayman_Full_Stack_Developer.pdf"',
         "Cache-Control": "public, max-age=3600",
       },
     });

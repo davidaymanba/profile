@@ -169,7 +169,7 @@ export async function seedPortfolioData() {
       period: item.period,
       stack: item.stack,
       description: item.description,
-      href: item.href ?? null,
+      href: "href" in item ? item.href ?? null : null,
       sort_order: index,
     })),
   );

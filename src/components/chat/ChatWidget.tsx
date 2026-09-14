@@ -101,7 +101,7 @@ export function ChatWidget() {
             <div className="flex items-center justify-between border-b border-[var(--line)] bg-[var(--surface)] px-4 py-3">
               <div>
                 <p className="font-display text-sm font-bold text-navy-deep">
-                  Chat with Mohamed
+                  Chat with David
                 </p>
                 <p className="text-xs text-ink-muted">Usually replies soon</p>
               </div>

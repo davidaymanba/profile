@@ -16,13 +16,13 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Mohamed Diab | Full Stack Developer",
+  title: "David Ayman | Full-Stack Developer with AI Agent Integration",
   description:
-    "Portfolio of Mohamed Ali Amen Diab — Full Stack Developer specializing in Laravel, Node.js, and Angular. Production experience across marketplaces, CRM, and event platforms.",
+    "Portfolio of David Ayman Bakhet Hanin — Full-Stack Developer specializing in Laravel, PHP, Python, and AI agent integration.",
   openGraph: {
-    title: "Mohamed Diab | Full Stack Developer",
+    title: "David Ayman | Full-Stack Developer with AI Agent Integration",
     description:
-      "Laravel · Node.js · Angular — production full stack work across marketplaces, CRM, and event platforms.",
+      "Laravel · PHP · Python · AI agents — production full-stack web applications and intelligent automation.",
     type: "website",
   },
 };
